@@ -1,0 +1,19 @@
+@import url("__title/cover__title.css");
+@import url("__subtitle/cover__subtitle.css");
+@import url("__opacity/cover__opacity.css");
+@import url("__item/cover__item.css");
+
+.cover {
+    width: calc(100% - 48px - 48px);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+	.cover {
+        width: 100%;
+    }
+}
