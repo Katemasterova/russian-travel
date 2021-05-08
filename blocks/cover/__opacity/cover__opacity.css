@@ -1,6 +1,7 @@
 .cover__opacity{
     background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
 }
 .cover__opacity::before {
     content: "";
@@ -14,5 +15,5 @@
     transition: opacity 0.5s ease;
 }
 .cover__opacity:hover::before {
-    opacity: 0.7;
+    opacity: 0.8;
 }

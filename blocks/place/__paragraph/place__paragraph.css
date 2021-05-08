@@ -1,20 +1,26 @@
-.place__paragraph {
-    margin: 0 0 26px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    color: #FFFFFF;
-}
+.place__paragraph { 
+    margin: 0;
+    margin-bottom: 26px; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 163%; 
+    color: #FFFFFF; 
+} 
 
-.place__paragraph:last-of-type{
+.place__paragraph:last-of-type{ 
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .place__text {
-    width: calc(100% - 16px - 16px);
-    margin: 0 auto;
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
     }
 }
 
+@media screen and (max-width: 767px) { 
+    .place__text { 
+    width: calc(100% - 16px - 16px); 
+    margin: 0 auto; 
+    } 
+}
